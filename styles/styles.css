@@ -3,11 +3,16 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    
+    line-height: 2em;
+    
+    background-image: url(../images/light_honeycomb_@2X.png);
+}
+
+.main-content {
     max-width: 600px;
     margin: auto;
-    line-height: 2em;
     padding-top: 20px;
-    background-image: url(../images/light_honeycomb_@2X.png);
 }
 
 button:hover {
@@ -38,4 +43,8 @@ text-decoration: none;
 /* Change the link color to #111 (black) on hover */
 li a:hover {
 background-color: #111;
+}
+
+.active {
+    background-color: burlywood;
 }
