@@ -2,8 +2,9 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    padding-left: 40px;
+    font-weight: bold;
     max-width: 600px;
     margin: auto;
+    line-height: 2em;
     padding-top: 20px;
 }
